@@ -52,18 +52,24 @@ public class Ejercicio11 {
             int opcion = leer.nextInt();
             switch (opcion) {
                 case 1: System.out.println("La Suma es igual a: "+(num1+num2));
+                    System.out.println("");
                         break;
                 case 2: System.out.println("La Resta es igual a: "+(num1-num2));
+                    System.out.println("");
                         break;
                 case 3: System.out.println("La Multiplicacion es igual a: "+(num1*num2));
+                    System.out.println("");
                         break;
                 case 4: System.out.println("La División es igual a: "+(num1/num2));
+                    System.out.println("");
                         break;
                 case 5: 
                     System.out.println("¿Está suguro que desea salir del programa(S/N)?");
                     char ele = leer.next().charAt(0);
                         if (ele == 'S' || ele == 's') {
                             salir=true;
+                            break;                            
+                        } else {
                             break;
                         }
                     
